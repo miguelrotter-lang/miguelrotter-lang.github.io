@@ -1,0 +1,6 @@
+# Archivos de desarrollo / sistema
+.claude/
+Thumbs.db
+desktop.ini
+.DS_Store
+*.log
