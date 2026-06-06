@@ -12,7 +12,7 @@
    Hasta que pegues la clave, al enviar el formulario se abre WhatsApp
    con los datos ya escritos (fallback automático).
    ------------------------------------------------------------ */
-const WEB3FORMS_ACCESS_KEY = "YOUR-ACCESS-KEY-HERE";
+const WEB3FORMS_ACCESS_KEY = "b5299401-6c18-4e65-aa4e-647fce587d37";
 const WHATSAPP_NUMBER = "34611598556"; // sin "+" ni espacios
 
 const translations = {
