@@ -253,18 +253,16 @@ ul { list-style: none; }
 }
 .hero-bg {
   position: absolute; inset: 0;
-  background-image: url("https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1920&q=80");
-  background-size: cover;
-  background-position: center;
-  transform: scale(1.05);
-  animation: heroZoom 18s ease-out forwards;
+  background:
+    radial-gradient(120% 115% at 80% 8%, rgba(200,162,74,0.26) 0%, transparent 45%),
+    radial-gradient(90% 90% at 10% 100%, rgba(29,53,80,0.55) 0%, transparent 55%),
+    linear-gradient(135deg, #0a151f 0%, #16293d 52%, #0a151f 100%);
 }
-@keyframes heroZoom { to { transform: scale(1); } }
 .hero-overlay {
   position: absolute; inset: 0;
   background:
-    linear-gradient(105deg, rgba(14,28,43,0.92) 0%, rgba(14,28,43,0.7) 45%, rgba(14,28,43,0.35) 100%),
-    linear-gradient(to top, rgba(14,28,43,0.85), transparent 40%);
+    linear-gradient(105deg, rgba(10,21,31,0.7) 0%, rgba(10,21,31,0.35) 55%, rgba(10,21,31,0.05) 100%),
+    linear-gradient(to top, rgba(10,21,31,0.6), transparent 45%);
 }
 .hero-content { position: relative; max-width: 760px; padding-top: 120px; padding-bottom: 60px; }
 .hero-title {
@@ -500,37 +498,13 @@ ul { list-style: none; }
 }
 
 /* ============================================================
-   TESTIMONIALS
-   ============================================================ */
-.testimonials { background: var(--cream-2); }
-.test-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 26px; }
-.test-card {
-  background: var(--white);
-  border-radius: var(--radius);
-  padding: 38px 32px;
-  box-shadow: var(--shadow-sm);
-}
-.test-stars { color: var(--gold); letter-spacing: 0.15em; margin-bottom: 18px; font-size: 1.05rem; }
-.test-card blockquote {
-  font-family: var(--serif);
-  font-size: 1.28rem;
-  line-height: 1.45;
-  color: var(--navy);
-  margin-bottom: 24px;
-}
-.test-card figcaption { display: flex; flex-direction: column; }
-.test-card figcaption strong { color: var(--ink); font-weight: 600; }
-.test-card figcaption span { font-size: 0.86rem; color: var(--muted); }
-.test-note { text-align: center; margin-top: 36px; font-size: 0.82rem; color: var(--muted); font-style: italic; }
-
-/* ============================================================
    CTA BANNER
    ============================================================ */
 .cta-banner {
   position: relative;
   background:
-    linear-gradient(105deg, rgba(14,28,43,0.94), rgba(14,28,43,0.78)),
-    url("https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1920&q=80") center / cover;
+    radial-gradient(circle at 82% 50%, rgba(200,162,74,0.20) 0%, transparent 58%),
+    linear-gradient(135deg, #0e1c2b 0%, #16293d 55%, #0e1c2b 100%);
   color: var(--cream);
   padding: 100px 0;
   text-align: center;
@@ -652,7 +626,7 @@ ul { list-style: none; }
    RESPONSIVE
    ============================================================ */
 @media (max-width: 1024px) {
-  .cards, .test-grid, .process-grid { grid-template-columns: repeat(2, 1fr); }
+  .cards, .process-grid { grid-template-columns: repeat(2, 1fr); }
   .why-grid { grid-template-columns: repeat(2, 1fr); }
   .turn-grid { grid-template-columns: 1fr; gap: 48px; }
   .contact-grid { grid-template-columns: 1fr; gap: 44px; }
@@ -669,7 +643,7 @@ ul { list-style: none; }
 }
 
 @media (max-width: 600px) {
-  .cards, .test-grid, .process-grid, .why-grid { grid-template-columns: 1fr; }
+  .cards, .process-grid, .why-grid { grid-template-columns: 1fr; }
   .trust-grid { grid-template-columns: 1fr; }
   .field-row { grid-template-columns: 1fr; }
   .hero-badges { gap: 26px; }

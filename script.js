@@ -99,18 +99,6 @@ const translations = {
     "areas.title": "Toda la Costa del Sol",
     "areas.lead": "Cubrimos las principales zonas de villas vacacionales de la costa. ¿No ve su localidad? Escríbanos, probablemente llegamos.",
 
-    "test.eyebrow": "Lo que dicen",
-    "test.title": "Propietarios que duermen tranquilos",
-    "test.q1": "\"Gestiono varias villas en Marbella y son mi equipo de confianza. Los cambios el mismo día siempre salen perfectos.\"",
-    "test.a1": "Laura M.",
-    "test.r1": "Gestora de alquiler vacacional",
-    "test.q2": "\"Vivo en Países Bajos y alquilo mi villa en Estepona. Hablar en mi idioma y recibir fotos tras cada limpieza me da total tranquilidad.\"",
-    "test.a2": "Johan V.",
-    "test.r2": "Propietario · Estepona",
-    "test.q3": "\"Profesionales, puntuales y con un acabado impecable. Mis huéspedes lo notan en cada reseña.\"",
-    "test.a3": "Sophie R.",
-    "test.r3": "Propietaria · Benahavís",
-    "test.note": "* Testimonios de muestra — sustitúyalos por reseñas reales de sus clientes.",
 
     "cta.title": "¿Listo para que su villa brille?",
     "cta.text": "Cuéntenos sus fechas y le enviamos un presupuesto sin compromiso hoy mismo.",
@@ -233,18 +221,6 @@ const translations = {
     "areas.title": "All across the Costa del Sol",
     "areas.lead": "We cover the main holiday-villa areas along the coast. Don't see your town? Get in touch — we probably reach it.",
 
-    "test.eyebrow": "What they say",
-    "test.title": "Owners who sleep soundly",
-    "test.q1": "\"I manage several villas in Marbella and they're my go-to team. Same-day turnarounds always come out perfect.\"",
-    "test.a1": "Laura M.",
-    "test.r1": "Holiday-rental manager",
-    "test.q2": "\"I live in the Netherlands and rent out my villa in Estepona. Speaking my language and getting photos after each clean gives me total peace of mind.\"",
-    "test.a2": "Johan V.",
-    "test.r2": "Owner · Estepona",
-    "test.q3": "\"Professional, punctual and an impeccable finish. My guests notice it in every review.\"",
-    "test.a3": "Sophie R.",
-    "test.r3": "Owner · Benahavís",
-    "test.note": "* Sample testimonials — replace them with your real client reviews.",
 
     "cta.title": "Ready to make your villa shine?",
     "cta.text": "Tell us your dates and we'll send you a no-obligation quote today.",
@@ -367,18 +343,6 @@ const translations = {
     "areas.title": "Overal aan de Costa del Sol",
     "areas.lead": "Wij dekken de belangrijkste vakantievilla-gebieden aan de kust. Ziet u uw plaats niet? Neem contact op — waarschijnlijk komen wij er.",
 
-    "test.eyebrow": "Wat zij zeggen",
-    "test.title": "Eigenaren die rustig slapen",
-    "test.q1": "\"Ik beheer meerdere villa's in Marbella en zij zijn mijn vaste team. De wissels op dezelfde dag zijn altijd perfect.\"",
-    "test.a1": "Laura M.",
-    "test.r1": "Vakantieverhuurbeheerder",
-    "test.q2": "\"Ik woon in Nederland en verhuur mijn villa in Estepona. In mijn eigen taal communiceren en foto's krijgen na elke schoonmaak geeft me volledige gemoedsrust.\"",
-    "test.a2": "Johan V.",
-    "test.r2": "Eigenaar · Estepona",
-    "test.q3": "\"Professioneel, stipt en een onberispelijke afwerking. Mijn gasten merken het in elke review.\"",
-    "test.a3": "Sophie R.",
-    "test.r3": "Eigenaar · Benahavís",
-    "test.note": "* Voorbeeldgetuigenissen — vervang ze door echte reviews van uw klanten.",
 
     "cta.title": "Klaar om uw villa te laten stralen?",
     "cta.text": "Vertel ons uw data en wij sturen u vandaag nog een vrijblijvende offerte.",
@@ -486,7 +450,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Scroll reveal
   const revealEls = document.querySelectorAll(
-    ".card, .why-item, .process-step, .test-card, .turn-visual, .section-head, .areas-list, .contact-info, .contact-form"
+    ".card, .why-item, .process-step, .turn-visual, .section-head, .areas-list, .contact-info, .contact-form"
   );
   revealEls.forEach((el) => el.classList.add("reveal"));
   if ("IntersectionObserver" in window) {

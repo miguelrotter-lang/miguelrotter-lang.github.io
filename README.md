@@ -32,17 +32,13 @@ Estos datos son **de muestra**. Sustitúyelos por los reales:
 2. **Email** — ✅ El email **no se muestra** en la web ni en el código (solo WhatsApp + formulario).
    - Las solicitudes del formulario llegan en **privado** al correo que registres en Web3Forms.
 
-3. **Fotos** — ahora usa imágenes de muestra (Unsplash) en el hero y el banner.
-   - En `styles.css`, reemplaza las dos URLs `https://images.unsplash.com/...`
-     por fotos **reales de tus villas** (mejor verticales/horizontales en alta resolución).
+3. **Fotos / testimonios** — eliminados a propósito por **privacidad de los dueños**.
+   El hero y el banner usan un fondo degradado premium (azul noche + dorado), sin fotos de villas.
 
-4. **Testimonios** — son de ejemplo. Cámbialos por reseñas reales
-   (en `index.html`, sección `testimonials`, y en `script.js` las claves `test.*`).
-
-5. **Logo** — ahora se muestra el texto "MSG" en una caja dorada. Si tienes un logo,
+4. **Logo** — ahora se muestra el texto "MSG" en una caja dorada. Si tienes un logo,
    puedes sustituir `.brand-mark` por una `<img>`.
 
-6. **Zonas** — edita la lista en la sección `areas` de `index.html` si cubres otras localidades.
+5. **Zonas** — edita la lista en la sección `areas` de `index.html` si cubres otras localidades.
 
 ## 📨 El formulario de contacto (YA CONECTADO ✅)
 
